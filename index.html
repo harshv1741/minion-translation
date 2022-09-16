@@ -1,66 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
     <title>Hello</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- My Website Navbar (START) -->
     <header class="header">
       <div class="navbar">
-          <nav>
+        <nav>
           <div class="navbar-head">
             <h2>Minion Translator</h2>
           </div>
-          <ul class="navbar-link-list">
-            <h3>
-              <li class="navbar-link-inline">
-                <a class="navbar-link" href="/">Minion</a>
-              </li>
-            </h3>
-          </ul>
         </nav>
-        </div>
+      </div>
     </header>
     <!-- My Website Navbar (END) -->
 
     <!-- Home Icon  (START) -->
     <div class="home-icon">
-        <img src="icon/minion.svg" alt="Minion">
+      <img src="icon/minion.svg" alt="Minion" />
     </div>
     <!-- Home Icon 🛑 (END) -->
-    
+
     <!-- Main Function (START) -->
     <div class="section">
       <!-- Input Section -->
-        <div class="section-style1">
-            <div class="section-head">
-              <h2 class="tittle">Your Text</h2>
-            </div>
-            <div class="section-content">
-              <textarea id="message" name="message" rows="10" cols="30" placeholder="Please type your text here......"></textarea>
-              <br><br>
-              <button id="banana" class="btn btn-primary">Bananaaaa!</button>
-            </div>
+      <div class="section-style1">
+        <div class="section-head">
+          <h2 class="tittle">Your Text</h2>
         </div>
-            
-        <!-- Translated Text Section -->
-        <div class="section-style2">
-            <div class="section-head">
-              <h2 class="title">Minion's Tongue!</h2>
-            </div>
-            <div class="section-content">
-              <h3>
-                <div class="translated-text" id="output"></div>
-                <br>
-                Note: The API has a ratelimit of 5 request per hour
-              </h3>
-            </div>
+        <div class="section-content">
+          <textarea
+            id="message"
+            name="message"
+            rows="10"
+            cols="30"
+            placeholder="Please type your text here......"
+          ></textarea>
+          <br /><br />
+          <button id="banana" class="btn btn-primary">Bananaaaa!</button>
         </div>
+      </div>
+
+      <!-- Translated Text Section -->
+      <div class="section-style2">
+        <div class="section-head">
+          <h2 class="title">Minion's Tongue!</h2>
+        </div>
+        <div class="section-content">
+          <h3>
+            <div class="translated-text" id="output"></div>
+            <br />
+          </h3>
+        </div>
+      </div>
     </div>
 
     <!-- Main Function (END) -->
@@ -72,12 +69,12 @@
         <div class="footer-head">
           <h2>Contact Me</h2>
         </div>
-        
+
         <!-- Footer Icons -->
         <div class="footer-content">
           <div class="footer-icon">
             <a href="https://www.github.com/harshv1741"
-            ><img src="icon/footer-github.svg" alt="Go to my github"
+              ><img src="icon/footer-github.svg" alt="Go to my github"
             /></a>
           </div>
           <div class="footer-icon">
@@ -92,22 +89,22 @@
           </div>
           <div class="footer-icon">
             <a href="https://www.twitter.com/harshv1741"
-            ><img src="icon/footer-twitter.svg" alt="Go to my twitter"
+              ><img src="icon/footer-twitter.svg" alt="Go to my twitter"
             /></a>
           </div>
           <div class="footer-icon">
             <a href="https://www.linkedin.com/in/harsh-vyapari-75689917a/"
-            ><img src="icon/footer-linkedin.svg" alt="Go to my linkedin"
+              ><img src="icon/footer-linkedin.svg" alt="Go to my linkedin"
             /></a>
           </div>
           <div class="footer-icon">
             <a href="mailto:harshv1741@gmail.com"
-            ><img src="icon/footer-gmail.svg" alt="Mail me on Gmail"
+              ><img src="icon/footer-gmail.svg" alt="Mail me on Gmail"
             /></a>
           </div>
           <div class="footer-icon">
             <a href="mailto:harshv1741@outlook.com"
-            ><img src="icon/footer-outlook.svg" alt="Mail me on Outlook"
+              ><img src="icon/footer-outlook.svg" alt="Mail me on Outlook"
             /></a>
           </div>
           <br />
@@ -122,5 +119,5 @@
     </footer>
     <!-- Footer (END) -->
     <script src="scripts/minion.js" type="text/javascript"></script>
-</body>
+  </body>
 </html>
